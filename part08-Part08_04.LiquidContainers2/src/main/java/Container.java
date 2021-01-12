@@ -3,6 +3,9 @@ public class Container {
     public Container() {
         this.container = 0;
     }
+    public int contains() {
+        return this.container;
+    }
     public void add(int amount) {
         if (amount < 0) {
             amount = 0;
@@ -22,6 +25,9 @@ public class Container {
         }
     }
     public String toString() {
-        return this.container + "/100";
+        return contains() + "/100";
     }
+//    public int getAmount() {
+//        return this.container;
+//    }
 }
