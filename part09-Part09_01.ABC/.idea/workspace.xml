@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7fedb7-e10e-4727-800f-ce201c64c3ac" name="Default Changelist" comment="" />
+    <list default="true" id="861570fa-54fd-45d7-be0e-b1be9a453dd3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1n0bSh2jdr5GptalLpEJ0ipIznF" />
+  <component name="ProjectId" id="1n0h0WyeKf0koK0kxtCQg3YhuMx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,28 +25,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af7fedb7-e10e-4727-800f-ce201c64c3ac" name="Default Changelist" comment="" />
-      <created>1610529957270</created>
+      <changelist id="861570fa-54fd-45d7-be0e-b1be9a453dd3" name="Default Changelist" comment="" />
+      <created>1610532693080</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610529957270</updated>
-      <workItem from="1610529960738" duration="2697000" />
+      <updated>1610532693080</updated>
+      <workItem from="1610532696590" duration="22000" />
     </task>
     <servers />
   </component>
