@@ -50,5 +50,14 @@ public class SimpleDate {
 
         return this.year - other.year - yearRemoved;
     }
+    public int hashCode() {
+        if(this.year >= 1900 && this.year<=2100) {
+            return this.year;
+        }
+        if (this.year == year) {
+            return this.year;
+        }
+        return this.year + this.year.hashCode();
+    }
 
 }

@@ -1,4 +1,5 @@
 
+import java.util.List;
 import java.util.Objects;
 
 public class LicensePlate {
@@ -19,4 +20,22 @@ public class LicensePlate {
         return country + " " + liNumber;
     }
 
+    public boolean equals(Object object) {
+        if (this == object) {
+            return true;
+        }
+        if(!(object instanceof LicensePlate)) {
+            return false;
+        }
+        LicensePlate objectC = (LicensePlate) object;
+        if (this.liNumber.equals(objectC.liNumber) && (this.country.equals(objectC.country))) {
+            return true;
+        }
+        return false;
+    }
+    public int hashCode() {
+        if(this.liNumber == null) {
+            return this.liNumber;
+        }
+    }
 }
