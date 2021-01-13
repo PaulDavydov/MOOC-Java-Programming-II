@@ -35,7 +35,9 @@ public class LicensePlate {
     }
     public int hashCode() {
         if(this.liNumber == null) {
-            return this.liNumber;
+            return this.liNumber.hashCode();
         }
+        return this.liNumber.hashCode() + this.liNumber.hashCode();
     }
+
 }

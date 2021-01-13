@@ -13,5 +13,9 @@ public class Program {
 //        System.out.println(dictionary.translate("lie"));
 //        dictionary.remove("bow");
 //        System.out.println(dictionary.translate("bow"));
+        DictionaryOfManyTranslations d = new DictionaryOfManyTranslations();
+        d.add("monkey","apina");
+        d.remove("monkey");
+        System.out.println(d.translate("monkey"));
     }
 }
