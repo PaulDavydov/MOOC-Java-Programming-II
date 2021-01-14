@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7fedb7-e10e-4727-800f-ce201c64c3ac" name="Default Changelist" comment="" />
+    <list default="true" id="88f598d5-43c7-4804-bcf3-bf59a893685b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1n0bSh2jdr5GptalLpEJ0ipIznF" />
+  <component name="ProjectId" id="1n3SA0EJDTj2BSvbInLUG0w35lf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,16 +32,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="af7fedb7-e10e-4727-800f-ce201c64c3ac" name="Default Changelist" comment="" />
-      <created>1610529957270</created>
+      <changelist id="88f598d5-43c7-4804-bcf3-bf59a893685b" name="Default Changelist" comment="" />
+      <created>1610617134054</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610529957270</updated>
-      <workItem from="1610529960738" duration="2697000" />
-      <workItem from="1610616501670" duration="38000" />
+      <updated>1610617134054</updated>
+      <workItem from="1610617137606" duration="1453000" />
     </task>
     <servers />
   </component>
