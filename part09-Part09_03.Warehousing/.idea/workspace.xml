@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88f598d5-43c7-4804-bcf3-bf59a893685b" name="Default Changelist" comment="" />
+    <list default="true" id="d2805432-13df-49a0-a5d6-5cab09880733" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1n3SA0EJDTj2BSvbInLUG0w35lf" />
+  <component name="ProjectId" id="1n3VA50V250QcRWfWVVNEIBQWLb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,20 +32,43 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88f598d5-43c7-4804-bcf3-bf59a893685b" name="Default Changelist" comment="" />
-      <created>1610617134054</created>
+      <changelist id="d2805432-13df-49a0-a5d6-5cab09880733" name="Default Changelist" comment="" />
+      <created>1610618615393</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610617134054</updated>
-      <workItem from="1610617137606" duration="1453000" />
-      <workItem from="1610668161381" duration="31000" />
+      <updated>1610618615393</updated>
+      <workItem from="1610618618916" duration="45000" />
+      <workItem from="1610668156348" duration="8311000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
