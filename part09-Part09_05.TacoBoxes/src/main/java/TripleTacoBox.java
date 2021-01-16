@@ -12,6 +12,9 @@ public class TripleTacoBox implements TacoBox{
 
     @Override
     public void eat() {
-        taco -= 1;
+        this.taco-=1;
+        if (this.taco < 0) {
+            this.taco = 0;
+        }
     }
 }

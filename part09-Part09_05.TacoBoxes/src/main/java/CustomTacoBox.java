@@ -11,5 +11,8 @@ public class CustomTacoBox implements TacoBox{
     @Override
     public void eat() {
         this.tacos-=1;
+        if (this.tacos < 0) {
+            this.tacos = 0;
+        }
     }
 }
