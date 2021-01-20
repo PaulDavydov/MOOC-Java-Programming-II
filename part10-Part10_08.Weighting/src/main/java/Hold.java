@@ -21,21 +21,23 @@ public class Hold {
     }
 
     public int totalWeight() {
-        int summa = 0;
-        int indeksi = 0;
-        while (indeksi < this.suitcases.size()) {
-        summa += this.suitcases.get(indeksi).totalWeight();
-        indeksi++;
-        }
-        return summa;
+//        int summa = 0;
+//        int indeksi = 0;
+//        while (indeksi < this.suitcases.size()) {
+//        summa += this.suitcases.get(indeksi).totalWeight();
+//        indeksi++;
+//        }
+        int sum = suitcases.stream().mapToInt(i -> i.totalWeight()).sum();
+        return sum;
     }
 
     public void printItems() {
         int indeksi = 0;
-        while (indeksi < this.suitcases.size()) {
-        this.suitcases.get(indeksi).printItems();
-        indeksi++;
-        }
+//        while (indeksi < this.suitcases.size()) {
+//        this.suitcases.get(indeksi).printItems();
+//        indeksi++;
+//        }
+        suitcases.stream().forEach(i -> i.printItems());
     }
 
     @Override
