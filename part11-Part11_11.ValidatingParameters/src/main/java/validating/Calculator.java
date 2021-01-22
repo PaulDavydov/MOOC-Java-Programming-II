@@ -3,7 +3,9 @@ package validating;
 public class Calculator {
 
     public int factorial(int num) {
-
+        if (num < 0) {
+            throw new IllegalArgumentException("num must be greater than 0");
+        }
         int answer = 1;
         for (int i = 1; i <= num; i++) {
             answer *= i;
@@ -13,7 +15,9 @@ public class Calculator {
     }
 
     public int binomialCoefficent(int setSize, int subsetSize) {
-
+        if (setSize < 0 || subsetSize < 0 || subsetSize > setSize) {
+            throw new IllegalArgumentException("Paramters cannot be negatives nor can subset size be greater than set size");
+        }
         int numerator = factorial(setSize);
         int denominator = factorial(subsetSize) * factorial(setSize - subsetSize);
 
