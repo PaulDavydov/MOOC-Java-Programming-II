@@ -17,6 +17,7 @@ public class MagicSquare {
 
     // implement these three methods
     public ArrayList<Integer> sumsOfRows() {
+        for 
         return new ArrayList<>();
     }
 
