@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Part13_03.ButtonAndTextField" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="buttonandtextfield.ButtonAndTextFieldApplication" />
+    <module name="Part13_03.ButtonAndTextField" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
